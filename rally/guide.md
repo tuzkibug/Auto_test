@@ -2,7 +2,7 @@
 ## 安装  
 * 安装最简centos系统后，缺少一些必备软件和epel源，所以补充安装：  
 yum install -y epel-release  
-yum install gcc python-pip python-devel  
+yum install -y git gcc python-pip python-devel  
 * 执行rally自动化安装程序，wget和curl任选其一    
 wget -q -O- https://raw.githubusercontent.com/openstack/rally/master/install_rally.sh | bash   
 curl https://raw.githubusercontent.com/openstack/rally/master/install_rally.sh | bash  

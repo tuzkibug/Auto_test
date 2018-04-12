@@ -4,8 +4,7 @@
 yum install -y epel-release  
 yum install gcc python-pip python-devel  
 * 执行rally自动化安装程序，wget和curl任选其一    
-wget -q -O- https://raw.githubusercontent.com/openstack/rally/master/install_rally.sh | bash  
-# or using curl  
+wget -q -O- https://raw.githubusercontent.com/openstack/rally/master/install_rally.sh | bash   
 curl https://raw.githubusercontent.com/openstack/rally/master/install_rally.sh | bash  
 * 安装成功后，重建数据库  
 rally db recreate  
